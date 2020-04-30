@@ -23,12 +23,13 @@
 
 .nav .nav__badge {
   position: absolute;
-  top: -10px;
-  right: -10px;
+  top: -7px;
+  right: -7px;
+  font-size: 10px;
   color: white;
   background-color: #dc5d46;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
