@@ -69,3 +69,27 @@
   padding: 10px 15px;
   border-radius: 5px;
 }
+
+.friend__column2 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.chat__badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
