@@ -30,13 +30,14 @@ a {
 
 @keyframes fadeIn {
   from {
-    transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(50px);
   }
   to {
+    opacity: 1;
     transform: none;
   }
 }
-
-.main {
-  animation: fadeIn 0.5s ease-out;
+main {
+  animation: fadeIn 0.5s ease-in-out;
 }
